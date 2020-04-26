@@ -1,0 +1,2330 @@
+{
+  "id": "36f7a6cd-4b0c-4641-b483-0ae5183fab38",
+  "version": "2.0",
+  "name": "Smoke testing",
+  "url": "https://new.askona.ru/",
+  "tests": [{
+    "id": "496170ae-6e4f-4da3-ad7c-47afbe51e4d9",
+    "name": "matras",
+    "commands": [{
+      "id": "303949cd-5dfc-4179-af7b-2e42b856a03c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea66abd3-c621-4d0e-b381-ce2bd78fc29b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1336x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70564256-faf8-4048-9d63-bfde0bb91450",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Войти",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60431bb0-dfcb-402f-b5e4-8c310c5bcb6a",
+      "comment": "",
+      "command": "//type",
+      "target": "name=USER_LOGIN",
+      "targets": [],
+      "value": "ZhiryakovaTB@askona.ru"
+    }, {
+      "id": "948f8777-c0b8-41de-9654-60a6fb5b3694",
+      "comment": "",
+      "command": "//type",
+      "target": "name=USER_PASSWORD",
+      "targets": [],
+      "value": "u0418u041c"
+    }, {
+      "id": "dcf05e71-3059-4416-8af7-b31fef0d5d1c",
+      "comment": "",
+      "command": "//click",
+      "target": "name=Login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3127173-5254-4018-9835-3985f70b32b8",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Матрасы",
+      "targets": [
+        ["linkText=Матрасы", "linkText"],
+        ["css=.main-menu__item:nth-child(1) > .main-menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Матрасы')]", "xpath:link"],
+        ["xpath=//header[@id='header-main']/div[4]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/matrasy/')])[8]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "598c7a33-9ae8-497c-b732-8709861f38b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Матрасы",
+      "targets": [
+        ["linkText=Матрасы", "linkText"],
+        ["css=.main-menu__item:nth-child(1) > .main-menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Матрасы')]", "xpath:link"],
+        ["xpath=//header[@id='header-main']/div[4]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/matrasy/')])[8]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c956381b-ad5f-44e4-bee0-c159a7698069",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Все",
+      "targets": [
+        ["linkText=Все", "linkText"],
+        ["css=.active .main-menu__category a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Все')]", "xpath:link"],
+        ["xpath=//header[@id='header-main']/div[4]/div/ul/li/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/matrasy/')])[9]", "xpath:href"],
+        ["xpath=//li/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77d1e5d7-8813-4902-b9fe-a7023ce3bebe",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#bx_3289230446_672 .catalog-card__img",
+      "targets": [
+        ["css=#bx_3289230446_672 .catalog-card__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.prod.askona.ru/upload/resize_cache/iblock/bd4/404_260_2/bd424b97014d2e2930a072391a61d4a6.jpg?_cvc=1585342732')]", "xpath:img"],
+        ["xpath=//img[@type='image/jpeg']", "xpath:attributes"],
+        ["xpath=//div[@id='bx_3289230446_672']/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "5c8915fe-d3db-403d-ab8b-75f94967627d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=FORTUNA",
+      "targets": [
+        ["linkText=FORTUNA", "linkText"],
+        ["css=#bx_3289230446_672 .h4 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'FORTUNA')])[2]", "xpath:link"],
+        ["xpath=//div[@id='bx_3289230446_672']/div[2]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/matrasy/askona/orgskok/askona-fortuna.htm')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b85845db-8051-43cd-a8bf-8cc1bab70f55",
+      "comment": "",
+      "command": "//click",
+      "target": "css=#bx_3289230446_672 .catalog-card__img-container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42000b61-c3d6-4f4b-b8dd-27ed7811c68a",
+      "comment": "",
+      "command": "type",
+      "target": "name=\"SELECTED_SIZE\"",
+      "targets": [],
+      "value": "080x200-45f74acecf066894038d3a472e873140"
+    }, {
+      "id": "c5043448-47af-45ef-be62-41c935066cdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-buy__drop-size-container b",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73ff9536-284e-433c-9c8e-2d4b5f056d3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-buy__drop-size-container > .select2-selection__arrow",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ebf2b87-f151-48c8-83aa-c9a208d6e97b",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.product-buy__drop-size-container > .select2-selection__arrow",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03a1a331-ef09-441e-b88c-6304840e2991",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.product-buy__drop-size-container b",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fea107c-9ae4-4a56-9a0b-c54cfd6943f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-product-buy__drop-size-container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94231ce7-3e5c-43d1-bae2-00414f9fc5ce",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efe6bea9-67f5-434c-93f5-2f4663d4a186",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection> .select2-selection__rendered",
+      "targets": [],
+      "value": "080 x 200"
+    }, {
+      "id": "408e258a-9c1f-4923-ab81-5e2241726369",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.product-info__price-wrapper> .product-info__price_new",
+      "targets": [],
+      "value": "price"
+    }, {
+      "id": "fdebb547-b7a1-4117-8753-78fa72fc400d",
+      "comment": "кликаем на кнопку Добавить в корзину",
+      "command": "click",
+      "target": "css=.product-info__btn-buy",
+      "targets": [
+        ["css=.product-info__btn-buy", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='bx_3183159926_672']/div/form/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "935780ff-f530-439c-89bd-40390f974101",
+      "comment": "добавить ожидание",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Товар добавлен в корзину')]",
+      "targets": [
+        ["css=.popup__hl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='added-to-cart']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Товар добавлен в корзину')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "8247d383-e8a4-4b4b-8346-298252d604c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.added-checkout",
+      "targets": [
+        ["css=.added-checkout", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформить заказ')]", "xpath:link"],
+        ["xpath=//div[@id='added-to-cart']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cabinet/order/')])[5]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82cee7f4-80ba-4de8-a4eb-1dad638dd092",
+      "comment": "Проверяем цену в корзине",
+      "command": "assertText",
+      "target": "css=.cart-items-total > .col2",
+      "targets": [
+        ["css=.cart-items-total > .col2", "css:finder"],
+        ["xpath=//div[2]/div/div[3]/div[2]", "xpath:position"]
+      ],
+      "value": "${price}"
+    }, {
+      "id": "62692242-3bad-4b78-868c-e557b9de92ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=region_auto_location_input",
+      "targets": [
+        ["id=region_auto_location_input", "id"],
+        ["name=ORDER_PROP_72", "name"],
+        ["css=#region_auto_location_input", "css:finder"],
+        ["xpath=//input[@id='region_auto_location_input']", "xpath:attributes"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55dbebbc-5bd7-4219-9b7a-ea984fda5717",
+      "comment": "",
+      "command": "type",
+      "target": "id=region_auto_location_input",
+      "targets": [
+        ["id=region_auto_location_input", "id"],
+        ["name=ORDER_PROP_72", "name"],
+        ["css=#region_auto_location_input", "css:finder"],
+        ["xpath=//input[@id='region_auto_location_input']", "xpath:attributes"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Владимир"
+    }, {
+      "id": "9a1d72a9-2288-4919-9ee6-b0260033f9de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-menu-item:nth-child(1)",
+      "targets": [
+        ["css=.ui-menu-item:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='region_auto_location_results']/ul/li", "xpath:idRelative"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'Владимир, Владимирская область, Россия')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05c07b01-0142-4e22-ad54-815d121412c8",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cc08d2d-08d4-4c93-9d24-db2e6a1a5c6f",
+      "comment": "",
+      "command": "//click",
+      "target": "id=region_auto_location_input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1299357d-6828-4c78-83c1-1d2bc508cad6",
+      "comment": "",
+      "command": "//type",
+      "target": "id=region_auto_location_input",
+      "targets": [],
+      "value": "Россия, Владимирская область, Владимир"
+    }, {
+      "id": "0c23688e-c248-4581-9d57-c3a58608586e",
+      "comment": "",
+      "command": "click",
+      "target": "id=delivery-prop-2",
+      "targets": [
+        ["id=delivery-prop-2", "id"],
+        ["name=ORDER_PROP_2", "name"],
+        ["css=#delivery-prop-2", "css:finder"],
+        ["xpath=//input[@id='delivery-prop-2']", "xpath:attributes"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61fd46e5-c5b8-4cae-bd3d-4481a45a8d17",
+      "comment": "",
+      "command": "type",
+      "target": "id=delivery-prop-2",
+      "targets": [
+        ["id=delivery-prop-2", "id"],
+        ["name=ORDER_PROP_2", "name"],
+        ["css=#delivery-prop-2", "css:finder"],
+        ["xpath=//input[@id='delivery-prop-2']", "xpath:attributes"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "ул Лермонтова "
+    }, {
+      "id": "6cda9dfb-beda-4d6a-b3fa-f4996da3e30a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-control:nth-child(3) > .radio-box:nth-child(1) > .checkout-mob__radio",
+      "targets": [
+        ["css=.cart-control:nth-child(3) > .radio-box:nth-child(1) > .checkout-mob__radio", "css:finder"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div[3]/div/div/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c355242-f55a-4594-89fb-59d2581e9195",
+      "comment": "",
+      "command": "click",
+      "target": "id=make_order",
+      "targets": [
+        ["id=make_order", "id"],
+        ["linkText=Отправить заказ", "linkText"],
+        ["css=#make_order", "css:finder"],
+        ["xpath=//a[contains(text(),'Отправить заказ')]", "xpath:link"],
+        ["xpath=//a[@id='make_order']", "xpath:attributes"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div[6]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[23]", "xpath:href"],
+        ["xpath=//div[6]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Отправить заказ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b18a577d-ef7f-43dd-b483-7e3b73354bf2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.confirm-order--area > h2",
+      "targets": [
+        ["css=.confirm-order--area > img", "css:finder"],
+        ["xpath=//img[@alt='apply']", "xpath:img"],
+        ["xpath=//div[2]/div/div[2]/img", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "888440a1-a8ab-4b97-857b-155ce60aa5e4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [],
+      "value": "Ваш заказ отправлен на обработку, спасибо!"
+    }, {
+      "id": "5a48bdbe-ee4a-4f6e-a224-3e9a2387f589",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo__img",
+      "targets": [
+        ["css=.logo__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.prod.askona.ru/local/templates/askona/assets/img/svg/logo_cart.svg?_cvc=1585332822')]", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb8bbc00-640c-40b8-81e3-9e04c40b9f22",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//div[@id='customer-city']/div/a",
+      "targets": [
+        ["linkText=Владимир", "linkText"],
+        ["css=#customer-city > .location__item_left > .location__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Владимир')]", "xpath:link"],
+        ["xpath=//div[@id='customer-city']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[20]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": "Владимир"
+    }]
+  }, {
+    "id": "28622ef2-e45a-4557-b785-6ad1f85dc944",
+    "name": "sm-1 Наличие элементов на Главной",
+    "commands": [{
+      "id": "59c7b2dd-dda2-43ef-8007-ff8e43e2d18c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60424e46-5da7-474e-abed-082f01be231e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5fffe6b-c058-44ed-bcea-7d56a3c66db7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.logo__img",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "cf74ec05-416d-4384-9084-11dd72a25059",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.logo__img",
+      "targets": [
+        ["css=.logo__img", "css:finder"],
+        ["xpath=//header[@id='header-main']/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53e9320a-8a7d-4821-9876-b2edc298d5f3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9697cce-bc6b-4c12-90f8-22df0ff4d9fa",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.main-panel__callback-btn",
+      "targets": [
+        ["linkText=Перезвоните мне", "linkText"],
+        ["css=.main-panel__callback-btn", "css:finder"],
+        ["xpath=//header[@id='header-main']/div[3]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[30]", "xpath:href"],
+        ["xpath=//div[3]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Перезвоните мне')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7778ed2b-170b-41cf-8ae8-007470517a97",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.phone__number",
+      "targets": [
+        ["linkText=8 800 200-40-90", "linkText"],
+        ["css=.phone__number > a", "css:finder"],
+        ["xpath=//a[contains(text(),'8 800 200-40-90')]", "xpath:link"],
+        ["xpath=//header[@id='header-main']/div[3]/div/div[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'tel:88002004090')]", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d884dab8-f093-49fb-9004-b733895b2ae1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.main-panel__cabinet_show",
+      "targets": [
+        ["linkText=Войти", "linkText"],
+        ["css=.main-panel__cabinet_show", "css:finder"],
+        ["xpath=//a[contains(text(),'Войти')]", "xpath:link"],
+        ["xpath=//div[@id='customer-auth']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[31]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "642ac57d-dab2-47f9-8a58-83b8e21ddba4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.customer-panel__item_wish",
+      "targets": [
+        ["css=.customer-panel__item_wish > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c824ca2-e410-461b-b26f-756ca2b14e27",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.customer-panel__item_compare",
+      "targets": [
+        ["css=.customer-panel__item_compare > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "047d4877-794b-4e78-adac-fe34f0e548c0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.customer-panel__item_cart",
+      "targets": [
+        ["css=.customer-panel__item_cart use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d697e08-a474-4520-97fc-1a5e6e4f1c30",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.panel__top",
+      "targets": [
+        ["css=.panel__top", "css:finder"],
+        ["xpath=//section", "xpath:position"],
+        ["xpath=//section[contains(.,'1234567891011121314')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49d64e8e-a110-49ac-b8b4-e680cbb616fd",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.container > .tabs__title > .is-active",
+      "targets": [
+        ["css=.container > .tabs__title > .is-active", "css:finder"],
+        ["xpath=//section[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Хиты продаж')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af8610e9-4eb6-4ab8-a6b8-1af886372e0f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.is-open .bestseller__items",
+      "targets": [
+        ["css=.is-open .bestseller__item:nth-child(1) > .bestseller__item-img-box", "css:finder"],
+        ["xpath=(//a[contains(@href, '/divany/pryamye/vega/vega-dorio-grey.htm')])[3]", "xpath:href"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fea2db4a-9b8a-44ff-91fe-32a600e48ce9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.get-coupon__wrap",
+      "targets": [
+        ["css=.get-coupon:nth-child(16)", "css:finder"],
+        ["xpath=//div[12]/div/div[2]/div[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8114b2e-20c4-437d-911d-501540307d58",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=(//a[contains(text(),'Получить скидку')])[2]",
+      "targets": [
+        ["css=.btn_big:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Получить скидку')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '')])[519]", "xpath:href"],
+        ["xpath=//div[10]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80f44568-890a-418f-808c-ce8b6a382070",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.week-products__title",
+      "targets": [
+        ["css=.week-products__title", "css:finder"],
+        ["xpath=//div[12]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Товар недели')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e2d65d2-e108-41e7-8286-4fb03f74ff9a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.week-products > .hidden-xs",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "782d568d-d984-49af-ad09-54859c5ca907",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.production__inner > .production__first",
+      "targets": [
+        ["css=.production__first", "css:finder"],
+        ["xpath=(//a[contains(@href, '/production/')])[2]", "xpath:href"],
+        ["xpath=//section[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b61ab904-0b95-4cdf-aaf0-4d85c1141b89",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.production__inner > .production__third",
+      "targets": [
+        ["css=.production__first", "css:finder"],
+        ["xpath=(//a[contains(@href, '/production/')])[2]", "xpath:href"],
+        ["xpath=//section[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79e3dae1-db81-43bc-99a8-1f16a3f05441",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Энциклопедия сна",
+      "targets": [
+        ["css=.production__inner__item:nth-child(1) > .production__subtitle", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Энциклопедия сна')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ced2041b-89c9-47a6-a53b-2a3cc303012a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.production__inner__item > .production__subtitle_hist",
+      "targets": [
+        ["css=.production__first", "css:finder"],
+        ["xpath=(//a[contains(@href, '/production/')])[2]", "xpath:href"],
+        ["xpath=//section[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d24e1bfb-7667-431c-a55e-dd34e90ae2c2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=bx_374938913_title",
+      "targets": [
+        ["id=bx_374938913_title", "id"],
+        ["css=#bx_374938913_title", "css:finder"],
+        ["xpath=//div[@id='bx_374938913_title']", "xpath:attributes"],
+        ["xpath=//h2/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "618fb975-8ef8-46ab-a5fb-ce66ae7692db",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=bx_374938913_title_tab_1",
+      "targets": [
+        ["id=bx_374938913_title_tab_1", "id"],
+        ["css=#bx_374938913_title_tab_1", "css:finder"],
+        ["xpath=//div[@id='bx_374938913_title_tab_1']", "xpath:attributes"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef5b8879-3598-400d-9b32-976702e449f8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=bx_374938913_title_tab_2",
+      "targets": [
+        ["id=bx_374938913_title_tab_1", "id"],
+        ["css=#bx_374938913_title_tab_1", "css:finder"],
+        ["xpath=//div[@id='bx_374938913_title_tab_1']", "xpath:attributes"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8353ebc7-550c-4ea1-b35b-ae32583332c9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=bx_374938913_title_tab_3",
+      "targets": [
+        ["id=bx_374938913_title_tab_1", "id"],
+        ["css=#bx_374938913_title_tab_1", "css:finder"],
+        ["xpath=//div[@id='bx_374938913_title_tab_1']", "xpath:attributes"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d19e7bef-987d-48d1-af3a-d635f69cf0bd",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=bx_374938913_title_tab_4",
+      "targets": [
+        ["id=bx_374938913_title_tab_1", "id"],
+        ["css=#bx_374938913_title_tab_1", "css:finder"],
+        ["xpath=//div[@id='bx_374938913_title_tab_1']", "xpath:attributes"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2aadc8a-6c29-4502-83cd-2033613a0ef7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.news-list-frame",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5736c0e7-d3bc-4fac-b856-b8da0edfe767",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.news-items__btn > .btn",
+      "targets": [
+        ["css=.is-open .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Показать ещё')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/news/')])[10]", "xpath:href"],
+        ["xpath=//section[4]/div/div/div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbf418e8-53da-44a6-8c42-25aa57a0ce6e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.subscribe__title > .subscribe__label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0d2c276-7fc6-44a9-a7b5-d017a0e12907",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=subscribe_email_footer",
+      "targets": [
+        ["id=subscribe_email_footer", "id"],
+        ["name=subscribe_email", "name"],
+        ["css=#subscribe_email_footer", "css:finder"],
+        ["xpath=//input[@id='subscribe_email_footer']", "xpath:attributes"],
+        ["xpath=//div[@id='subscribe-panel']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1fc578f-d242-4c47-9c15-8390e5b0d2fb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=facebook",
+      "targets": [
+        ["linkText=facebook", "linkText"],
+        ["css=.social-icon:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'facebook')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/AskonaRu')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2f02d71-46a8-42f2-a029-93887cef8d98",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=вконтакте",
+      "targets": [
+        ["linkText=вконтакте", "linkText"],
+        ["css=.social-icon:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'вконтакте')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://vk.com/askonaru')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/div[2]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'вконтакте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "307ae988-0f86-4edc-8c7f-3587d6634bf8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=одноклассники",
+      "targets": [
+        ["linkText=одноклассники", "linkText"],
+        ["css=.social-icon:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'одноклассники')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://ok.ru/group/51771901804675')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/div[2]/div[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'одноклассники')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0f6442d-0285-440e-ae52-f6e10cee94f1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=instagram",
+      "targets": [
+        ["linkText=instagram", "linkText"],
+        ["css=.social-icon:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'instagram')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.instagram.com/askona_official/')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/div[2]/div[2]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'instagram')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de537d8c-d30b-4970-84be-91f5a0820907",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=youtube",
+      "targets": [
+        ["linkText=youtube", "linkText"],
+        ["css=.social-icon:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'youtube')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.youtube.com/user/AskonaVideo')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/div[2]/div[2]/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'youtube')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b637e714-c7f4-453e-8ef5-b011ed306e09",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.bottom-menu__columns",
+      "targets": [
+        ["css=.bottom-menu__columns", "css:finder"],
+        ["xpath=//footer/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7ec93bb4-7550-40dd-998e-0b9c9668d85e",
+    "name": "sm-2 Наличие эл-ов в Каталоге",
+    "commands": [{
+      "id": "1ad6d0aa-ff2e-4ded-848a-a7747873bc52",
+      "comment": "",
+      "command": "open",
+      "target": "/matrasy/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc6e6c40-863e-447b-b2af-4dd3ee638753",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d412969-74ef-4698-803a-7d1ea19cca66",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.table-cell > .fast-filter__title",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "d1bfd9fc-bb5c-4c02-9cda-502b047095d6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.table-cell > .fast-filter__title",
+      "targets": [
+        ["linkText=вконтакте", "linkText"],
+        ["css=.social-icon:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'вконтакте')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://vk.com/askonaru')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/div[2]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'вконтакте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64b4e459-1d86-4e3d-88e9-95b806109a95",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.table-cell > .fast-filter__items",
+      "targets": [
+        ["linkText=вконтакте", "linkText"],
+        ["css=.social-icon:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'вконтакте')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://vk.com/askonaru')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/div[2]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'вконтакте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56e78083-bbbf-422a-bcdf-02d493f1750b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.filter-wrap-desc > .filters-wrap",
+      "targets": [
+        ["linkText=вконтакте", "linkText"],
+        ["css=.social-icon:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'вконтакте')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://vk.com/askonaru')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/div[2]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'вконтакте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d15175f-17e7-4d7b-a4f2-7972a29845c3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.filter-wrap-desc > .btn",
+      "targets": [
+        ["linkText=вконтакте", "linkText"],
+        ["css=.social-icon:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'вконтакте')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://vk.com/askonaru')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/div[2]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'вконтакте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "276c81d9-1f51-49b6-953c-6dd0164a4d05",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.catalog-filters-sorting",
+      "targets": [
+        ["css=.catalog-filters-sorting", "css:finder"],
+        ["xpath=//form[@id='filter_form']/div", "xpath:idRelative"],
+        ["xpath=//form[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb7a640a-3978-466c-9211-86f1dae83a56",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sorting-wrap-desc",
+      "targets": [
+        ["css=.sorting-wrap-desc", "css:finder"],
+        ["xpath=//div[@id='catalog-sorting']/div", "xpath:idRelative"],
+        ["xpath=//form[2]/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71dfdd33-5c35-45b7-b786-269c39bce709",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Цене",
+      "targets": [
+        ["linkText=Цене", "linkText"],
+        ["css=.sorting-tag:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Цене')]", "xpath:link"],
+        ["xpath=//div[@id='catalog-sorting']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//form[2]/div/div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Цене')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2837322f-6428-47e8-bfed-66c009f8635b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Скидке",
+      "targets": [
+        ["linkText=Скидке", "linkText"],
+        ["css=.sorting-tag:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Скидке')]", "xpath:link"],
+        ["xpath=//div[@id='catalog-sorting']/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//form[2]/div/div[4]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Скидке')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67a13d53-f925-41ea-b02f-09153f07e193",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Названию",
+      "targets": [
+        ["linkText=Названию", "linkText"],
+        ["css=.sorting-tag:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Названию')]", "xpath:link"],
+        ["xpath=//div[@id='catalog-sorting']/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//form[2]/div/div[4]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Названию')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77857bf3-aba0-4f66-9769-aeb6868379f3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Популярности",
+      "targets": [
+        ["linkText=Популярности", "linkText"],
+        ["css=.sorting-tag:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Популярности')]", "xpath:link"],
+        ["xpath=//div[@id='catalog-sorting']/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//form[2]/div/div[4]/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Популярности')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a7921c-ddec-4f6b-a13b-6fffc4823965",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Новизне",
+      "targets": [
+        ["linkText=Новизне", "linkText"],
+        ["css=.sorting-tag:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Новизне')]", "xpath:link"],
+        ["xpath=//div[@id='catalog-sorting']/div/a[5]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//form[2]/div/div[4]/div/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Новизне')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccd62a31-33a5-49b3-bb98-f581aa0a819f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.catalog-product-amount > span:nth-child(1)",
+      "targets": [
+        ["css=.catalog-product-amount > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='catalog-sorting']/div/div/span", "xpath:idRelative"],
+        ["xpath=//form[2]/div/div[4]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Товаров: ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b970b15f-b28c-4bea-81a6-2f832243f997",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.catalog-element-count:nth-child(2)",
+      "targets": [
+        ["css=.catalog-element-count:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='catalog-sorting']/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1343551b-84e9-426f-bccc-2140457941e9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.catalog-feed_dummy",
+      "targets": [
+        ["css=.catalog-element-count:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='catalog-sorting']/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "633a96c6-7b75-4c98-b51a-80e0521e82ff",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.catalog-dummy_with-link",
+      "targets": [
+        ["css=.catalog-dummy_with-link", "css:finder"],
+        ["xpath=//div[@id='catalog']/div[2]/div[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b73d54-3440-460c-85e2-9b2556669618",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.catalog-cart__show-more",
+      "targets": [
+        ["css=.catalog-cart__show-more", "css:finder"],
+        ["xpath=//div[@id='catalog']/div[2]/div[26]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[26]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "607f0c74-b703-46e2-b184-a5b81ea99b8b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.show-more",
+      "targets": [
+        ["css=.show-more", "css:finder"],
+        ["xpath=//div[@id='catalog']/div[2]/div[26]/div/p", "xpath:idRelative"],
+        ["xpath=//div[26]/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76082e20-138d-4c3d-b0b1-2c2f16a506bf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.catalog-pagination__container",
+      "targets": [
+        ["css=.catalog-pagination__container", "css:finder"],
+        ["xpath=//div[@id='catalog']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "807b523f-e7ee-421c-a3cf-9a8f7b862640",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=load_more",
+      "targets": [
+        ["id=load_more", "id"],
+        ["css=#load_more", "css:finder"],
+        ["xpath=//button[@id='load_more']", "xpath:attributes"],
+        ["xpath=//div[@id='catalog']/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1578dda4-0eb5-4398-82d5-265cdfec4ab2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=slick-slide00",
+      "targets": [
+        ["id=slick-slide00", "id"],
+        ["css=#slick-slide00", "css:finder"],
+        ["xpath=//div[@id='slick-slide00']", "xpath:attributes"],
+        ["xpath=//div[2]/div[4]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "303e5bdc-78eb-4f68-ad55-b38019fa886a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.catalog-slider__wrapper > .btn",
+      "targets": [
+        ["css=#slick-slide00 .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Подобрать матрас')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"window.location.href='/podbor-matrasov/'\"]", "xpath:attributes"],
+        ["xpath=//div[@id='slick-slide00']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/podbor-matrasov/')])[5]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f21c5952-9370-47c0-b10d-0685b7d1b7e8",
+    "name": "sm-3 Наличие эл-ов в карточке матраса",
+    "commands": [{
+      "id": "5926edc1-c1f6-46f9-87f3-bf707413d7dc",
+      "comment": "",
+      "command": "open",
+      "target": "/matrasy/askona/orgskok/askona-fortuna.htm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da576dc3-9fe5-46e0-93ce-9912516555eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d23b71b-95d7-414b-b0d5-0c82f776cf58",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.product-head__breadcrumbs",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "1183ad11-8e28-482f-8e7a-21c49221096a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-head__breadcrumbs",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "298e0e08-cbc5-4a0f-8d0e-de7a2142ad8e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-head__title",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4787a1e2-6354-4966-b867-fd616d9e91eb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-preview__slider",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6aa997d-9ca5-4a98-8891-e8b4b6975517",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-slider",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac45b96d-1860-4d74-b1b1-e3dad242de07",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-head__rating",
+      "targets": [
+        ["css=.product-head__rating", "css:finder"],
+        ["xpath=//div[3]/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b18e6c37-e195-4e45-971d-109e27410a0e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-preview__stickers-desktop > div",
+      "targets": [
+        ["css=.product-preview__stickers-desktop > div", "css:finder"],
+        ["xpath=//section/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81505311-8929-47b5-ac42-13a9a431a169",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=product-detail-tabs",
+      "targets": [
+        ["id=product-detail-tabs", "id"],
+        ["css=#product-detail-tabs", "css:finder"],
+        ["xpath=//section[@id='product-detail-tabs']", "xpath:attributes"],
+        ["xpath=//section/section[2]/section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18b0bc7f-2feb-4caa-ac5f-dd4c83753064",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-detail__tab-active > .product-detail__tab-desktop",
+      "targets": [
+        ["css=.product-detail__tab-active > .product-detail__tab-desktop", "css:finder"],
+        ["xpath=//section[@id='product-detail-tabs']/a/span", "xpath:idRelative"],
+        ["xpath=//section/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Описание')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98267bed-32c0-4541-8762-2ea4c4251825",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-detail__tab:nth-child(2) > .product-detail__tab-item",
+      "targets": [
+        ["css=.product-detail__tab:nth-child(2) > .product-detail__tab-item", "css:finder"],
+        ["xpath=//section[@id='product-detail-tabs']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//section/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Характеристики')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bf22b25-55a8-4ee6-a529-8fc3575264f6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-detail__tab-label > .product-detail__tab-desktop",
+      "targets": [
+        ["css=.product-detail__tab-label > .product-detail__tab-desktop", "css:finder"],
+        ["xpath=//section[@id='product-detail-tabs']/a[3]/span", "xpath:idRelative"],
+        ["xpath=//section/a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отзывы о товаре')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7349fc6c-ed31-4f80-b71d-402cedb41901",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=select2-product-buy__drop-size-container",
+      "targets": [
+        ["id=select2-product-buy__drop-size-container", "id"],
+        ["css=#select2-product-buy__drop-size-container", "css:finder"],
+        ["xpath=//span[@id='select2-product-buy__drop-size-container']", "xpath:attributes"],
+        ["xpath=//section[@id='bx_3183159926_672']/div/form/div/div[2]/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b60e8d44-913e-4b54-aa9f-0dc65f8fa42c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-info__elmt-title",
+      "targets": [
+        ["css=.product-info__elmt-title", "css:finder"],
+        ["xpath=//section[@id='bx_3183159926_672']/div/form/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d95cef3-0557-457f-bd23-528ab3629df2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-info__price_new",
+      "targets": [
+        ["css=.product-info__price_new", "css:finder"],
+        ["xpath=//section[@id='bx_3183159926_672']/div/form/div[2]/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'5 123 ₽')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c52f8f9-96fd-4bde-9c6e-d0bf4eb027c2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-info__price_old",
+      "targets": [
+        ["css=.product-info__price_old", "css:finder"],
+        ["xpath=//section[@id='bx_3183159926_672']/div/form/div[2]/div/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'7 985 ₽')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "929dc3ae-09ab-427e-8d1c-1a7a4b3a4460",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-info__btn-buy",
+      "targets": [
+        ["css=.product-info__btn-buy", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='bx_3183159926_672']/div/form/div[2]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28f1af55-0855-4fe4-8822-c5aa2f3439d3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-info__btn-apply-full",
+      "targets": [
+        ["linkText=РАССРОЧКА ОТ 854 ₽/МЕС", "linkText"],
+        ["css=.product-info__btn-apply-full", "css:finder"],
+        ["xpath=//a[contains(text(),'РАССРОЧКА ОТ 854 ₽/МЕС')]", "xpath:link"],
+        ["xpath=//section[@id='bx_3183159926_672']/div/form/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[35]", "xpath:href"],
+        ["xpath=//form/div[2]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'РАССРОЧКА ОТ 854 ₽/МЕС')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "058b9d27-56ea-449d-93ec-16999ad684f4",
+    "name": "sm-4 Покупка из каталога",
+    "commands": [{
+      "id": "67c7e2f0-e540-4d0f-b0a4-2a195b751ee5",
+      "comment": "",
+      "command": "open",
+      "target": "/matrasy/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c603cb0e-f891-4b94-bca6-9c63b40d70db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5a9de5f-c2dd-4dd9-8641-d1a13ef9f890",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#bx_3289230446_672 .price_new",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "ea665c03-9463-48ab-acf2-948fa03cdd5a",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#bx_3289230446_672 .price_new",
+      "targets": [
+        ["css=#bx_3289230446_672 .price_new", "css:finder"],
+        ["xpath=//div[@id='bx_3289230446_672']/div[2]/div/div[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/span[2]", "xpath:position"]
+      ],
+      "value": "price"
+    }, {
+      "id": "73af65c0-ed76-474c-87f6-61622ca5396d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#bx_3289230446_672 .catalog-card__column_buy > .btn",
+      "targets": [
+        ["css=#bx_3289230446_672 .catalog-card__column_buy > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Купить')]", "xpath:link"],
+        ["xpath=//div[@id='bx_3289230446_672']/div[2]/div[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "500bd93b-f49d-403f-8be9-3540dd4cb4fd",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Товар добавлен в корзину')]",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "aaa5345f-29b4-4890-aac8-b7d07b1c595d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.item-to-cart__params",
+      "targets": [
+        ["css=.item-to-cart__params", "css:finder"],
+        ["xpath=//div[@id='added-to-cart']/div[2]/div/div[2]/p[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/p[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a28bf456-c99a-4ec5-9e45-afd5c12ad640",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.added-return",
+      "targets": [
+        ["css=.added-return", "css:finder"],
+        ["xpath=(//button[@type='button'])[61]", "xpath:attributes"],
+        ["xpath=//div[@id='added-to-cart']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f43e81e-3961-43b0-b2a7-2eb56e2d2e61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.added-checkout",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2147522-7caa-4f0e-a69c-013e33c637fd",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.item-price",
+      "targets": [
+        ["css=.item-price", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "50000"
+    }, {
+      "id": "77c01988-29e1-4196-8603-8c53767b982d",
+      "comment": "Проверяем цену в корзине",
+      "command": "assertText",
+      "target": "css=.cart-items-total > .col2",
+      "targets": [
+        ["css=.cart-items-total > .col2", "css:finder"],
+        ["xpath=//div[2]/div/div[3]/div[2]", "xpath:position"]
+      ],
+      "value": "${price}"
+    }, {
+      "id": "d80dfd6a-a3e1-460a-9c73-b49622247a5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-item-delete",
+      "targets": [
+        ["css=.cart-item-delete", "css:finder"],
+        ["xpath=//div[2]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d0939d5-efcb-4d35-b65c-43776afd207f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Начать покупки",
+      "targets": [],
+      "value": "30000"
+    }]
+  }, {
+    "id": "3885cdd2-7894-4973-ae95-93f64f7a3e18",
+    "name": "sm-5 Добавление кровати из КТ",
+    "commands": [{
+      "id": "ca9ebc99-144f-46d7-9ca7-3602112971e1",
+      "comment": "",
+      "command": "run",
+      "target": "delete from cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6631ec62-efea-4553-8b7c-bb59e6635e4d",
+      "comment": "",
+      "command": "open",
+      "target": "/krovati/marta-new.htm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a672654-ab09-4f34-b80d-da84713bab30",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1336x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a80e2dc9-e39c-4799-9926-884950c33404",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=product-buy__drop-size",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "69c20961-0f92-4a81-9d01-0cd234e2bd12",
+      "comment": "",
+      "command": "select",
+      "target": "id=product-buy__drop-size",
+      "targets": [
+        ["id=select2-product-buy__drop-size-container", "id"],
+        ["css=#select2-product-buy__drop-size-container", "css:finder"],
+        ["xpath=//span[@id='select2-product-buy__drop-size-container']", "xpath:attributes"],
+        ["xpath=//section[@id='bx_3183159926_31054']/div/form/div/div/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": "180 x 200"
+    }, {
+      "id": "6555fff8-2a77-4181-a0fd-dd2920d07377",
+      "comment": "",
+      "command": "select",
+      "target": "name=SELECTED_FABRIC_ID",
+      "targets": [],
+      "value": "Chester Celine 01"
+    }, {
+      "id": "a5bfd2e8-7292-4a8e-ae82-06d5c6862453",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-buy__checks-container > label",
+      "targets": [
+        ["css=.product-buy__checks-container > label", "css:finder"],
+        ["xpath=//section[@id='bx_3183159926_31053']/div/form/div/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Анатомическая решетка ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abd803a1-54fe-4ce4-9c19-74ca86db2edc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.product-info__btn-buy",
+      "targets": [
+        ["css=.product-info__btn-buy", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='bx_3183159926_31053']/div/form/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "8f7f7da7-fa1b-49bb-9e15-4f045023f79b",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.product-info__price-wrapper> .product-info__price_new",
+      "targets": [],
+      "value": "price"
+    }, {
+      "id": "224c5c0e-d288-4c88-b02e-949a7fbf098a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-info__btn-buy",
+      "targets": [
+        ["css=.product-info__btn-buy", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='bx_3183159926_31053']/div/form/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "061f7281-5ce0-4d98-b19d-c626d01d5eee",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Товар добавлен в корзину')]",
+      "targets": [
+        ["css=.popup__hl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='added-to-cart']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Товар добавлен в корзину')]", "xpath:innerText"]
+      ],
+      "value": "50000"
+    }, {
+      "id": "c19e71a6-0b4d-4048-9679-6f3138512a28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.added-checkout",
+      "targets": [
+        ["css=.added-checkout", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформить заказ')]", "xpath:link"],
+        ["xpath=//div[@id='added-to-cart']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cabinet/order/')])[3]", "xpath:href"],
+        ["xpath=//div[11]/div/div/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcc70c75-4910-49ca-9f9e-6db23322c2bf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cart-items-total > .col2",
+      "targets": [],
+      "value": "${price}"
+    }, {
+      "id": "045b2661-7c75-4f5b-90e6-1b0ca9645784",
+      "comment": "Проверяем цену в корзине",
+      "command": "//assertText",
+      "target": "css=.cart-items-total > .col2",
+      "targets": [],
+      "value": "${price}"
+    }, {
+      "id": "020f00f7-ecec-4826-84bb-183cbaa4b818",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) .cart-item-delete",
+      "targets": [
+        ["css=.item:nth-child(1) .cart-item-delete", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4359a370-8464-4137-9135-c13cd4df4d1a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.cart-item-delete",
+      "targets": [],
+      "value": "120000"
+    }, {
+      "id": "dc1ab45c-999c-4923-8d76-642ceeb29b9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-item-delete",
+      "targets": [
+        ["css=.cart-item-delete", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bb8a276-4bca-400a-a306-04283e766991",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Начать покупки",
+      "targets": [
+        ["linkText=Начать покупки", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Начать покупки')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Начать покупки')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }]
+  }, {
+    "id": "d73b67ef-bc3a-47f7-a5f5-9951318f2c5d",
+    "name": "sm-6 Добавление из вкладки наличие",
+    "commands": [{
+      "id": "f1a98b6f-dcae-4732-95aa-9205f9f94421",
+      "comment": "",
+      "command": "run",
+      "target": "delete from cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20be4052-0db8-428d-a670-d2a8cdf3b49d",
+      "comment": "",
+      "command": "open",
+      "target": "/tekstil/pledy/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5450f71-d534-40bc-b21f-a76fc2cd85a8",
+      "comment": "",
+      "command": "//setWindowSize",
+      "target": "1336x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0ae81c2-509e-4760-b509-8eceb9dbe709",
+      "comment": "",
+      "command": "run",
+      "target": "random from the catalog",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5eae4f64-2d9b-4a8d-8ff5-08466130dfc5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#customer-city > .location__item_left > .location__link",
+      "targets": [
+        ["linkText=Ковров", "linkText"],
+        ["css=#customer-city > .location__item_left > .location__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Ковров')]", "xpath:link"],
+        ["xpath=//div[@id='customer-city']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[32]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "1a95993b-6275-42d4-86d2-4e0dea9c85e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#customer-city > .location__item_left > .location__link",
+      "targets": [
+        ["linkText=Москва", "linkText"],
+        ["css=.location__item_left:nth-child(2) > .location__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Москва')]", "xpath:link"],
+        ["xpath=//div[@id='customer-city']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[32]", "xpath:href"],
+        ["xpath=//div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de938ad4-9758-4e05-9ea7-d12ce2a4a43c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//a[contains(@href, '?CHANGE_CITY_ID=84')]",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "0d6e2f73-f6be-4ff5-80b5-e9c2a812ee76",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '?CHANGE_CITY_ID=84')]",
+      "targets": [
+        ["css=.city-list__item:nth-child(1) > .city-list__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Москва')])[4]", "xpath:link"],
+        ["xpath=//ul[@id='city-list-default']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?CHANGE_CITY_ID=84')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69a2374e-bf6f-44ca-8476-7af9c3726da5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.product-info__price_new",
+      "targets": [
+        ["css=.product-info__price_new", "css:finder"],
+        ["xpath=//section[@id='bx_3183159926_46639']/div/form/div[2]/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'4 150 ₽')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "a67b3e44-d325-4297-ba90-f938adc77515",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.product-info__price_new",
+      "targets": [
+        ["css=.product-info__price_new", "css:finder"],
+        ["xpath=//section[@id='bx_3183159926_46639']/div/form/div[2]/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'4 150 ₽')]", "xpath:innerText"]
+      ],
+      "value": "price"
+    }, {
+      "id": "06334703-7f7f-45b1-867e-f070f8256377",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-detail__avaib > .product-detail__tab-item",
+      "targets": [
+        ["css=.product-detail__avaib > .product-detail__tab-item", "css:finder"],
+        ["xpath=//section[@id='product-detail-tabs']/a[4]/span", "xpath:idRelative"],
+        ["xpath=//section/a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Наличие в магазинах')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d014013-bcd9-4a92-839e-e490fba05cf5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ymaps-2-1-76-events-pane",
+      "targets": [
+        ["css=.ymaps-2-1-76-events-pane", "css:finder"],
+        ["xpath=//div[@id='pickup-map']/ymaps/ymaps/ymaps/ymaps", "xpath:idRelative"],
+        ["xpath=//ymaps/ymaps/ymaps/ymaps", "xpath:position"]
+      ],
+      "value": "50000"
+    }, {
+      "id": "16ff6c92-0752-46f1-b98b-8e2ca2255497",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Список')]",
+      "targets": [
+        ["css=.pickup-toggle__item:nth-child(2) > .pickup-toggle-link", "css:finder"],
+        ["xpath=//section[@id='pickup_availability']/div/div/div[2]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Список')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cfe2543-cb29-4154-83a9-55d056286aeb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section[@id='pickup_availability']/div/div[2]/div[2]/div/div/div[3]/button",
+      "targets": [
+        ["css=.pickup-item-1712:nth-child(2)", "css:finder"],
+        ["xpath=//section[@id='pickup_availability']/div/div[2]/div[2]/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "137bc3cb-ee5b-4611-9762-d635be992988",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//h2[contains(.,'Товар добавлен в корзину')]",
+      "targets": [
+        ["css=.popup__hl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='added-to-cart']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Товар добавлен в корзину')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "ea817934-5c5a-43b9-ad69-cec7b37ccf94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.added-checkout",
+      "targets": [
+        ["css=.added-checkout", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформить заказ')]", "xpath:link"],
+        ["xpath=//div[@id='added-to-cart']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cabinet/order/')])[3]", "xpath:href"],
+        ["xpath=//div[21]/div/div/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9128b7cf-b2a6-4824-aa50-13789ca8c623",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.cart-items-total > .col2",
+      "targets": [
+        ["css=.cart-items-total > .col2", "css:finder"],
+        ["xpath=//div/div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "f6ab0145-b284-4fd9-99dc-8bf31d94e67c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cart-items-total > .col2",
+      "targets": [],
+      "value": "${price}"
+    }, {
+      "id": "28a21741-ad24-4526-8e5b-303fbf10f8c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-item-delete",
+      "targets": [
+        ["css=.cart-item-delete", "css:finder"],
+        ["xpath=//div[2]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52201852-34e8-4634-a5ad-2ffe57d83fdc",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Начать покупки",
+      "targets": [
+        ["linkText=Начать покупки", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Начать покупки')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Начать покупки')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }]
+  }, {
+    "id": "d5b083af-0fe9-4a38-8cd7-05d122923ac1",
+    "name": "sm-7 Заказ неавт польз из корзины",
+    "commands": [{
+      "id": "c241a937-f6b7-487f-842b-5fcde04983e3",
+      "comment": "",
+      "command": "open",
+      "target": "/podushki/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99043cb6-e62e-441d-bd45-08b77743338b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1336x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35db5d3a-453f-496f-97ff-063c17baac0d",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77ef0ef7-0de1-4f7d-8ba6-51aba6c6014f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.catalog-card__img-container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffaeef16-e27b-43d4-a083-187b43f00fcb",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea3471ec-b12b-4a7d-b7e4-d5623c3a2900",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.popmechanic-header",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08aa9522-071e-4f9b-8638-35825bd40dcd",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.popmechanic-close",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ffbb1da-7faf-4075-8608-a10ca3a40fd9",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9711fd6c-8d51-4f83-8217-a57cae8b51e9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Купить')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09e8dd44-1bf0-442b-8fa2-5bbca6122eea",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Товар добавлен в корзину')]",
+      "targets": [
+        ["css=.popup__hl", "css:finder"],
+        ["xpath=//div[@id='added-to-cart']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Товар добавлен в корзину')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "460dd60f-1fb3-4fbc-b3bc-56bf6a2a20d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.added-checkout",
+      "targets": [
+        ["css=.added-checkout", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформить заказ')]", "xpath:link"],
+        ["xpath=//div[@id='added-to-cart']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cabinet/order/')])[3]", "xpath:href"],
+        ["xpath=//div[12]/div/div/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6a62cf2-d98b-40e4-bb29-e3c7c7d4afbf",
+      "comment": "",
+      "command": "waitForElementEditable",
+      "target": "id=cart-firstname",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "5618dd0e-8295-439e-a9d6-2e8a55371dd0",
+      "comment": "",
+      "command": "type",
+      "target": "id=cart-firstname",
+      "targets": [],
+      "value": "auto"
+    }, {
+      "id": "056270d4-7a47-4286-bcb0-2f6ed610aa31",
+      "comment": "",
+      "command": "type",
+      "target": "id=cart-lastname",
+      "targets": [
+        ["id=cart-lastname", "id"],
+        ["css=#cart-lastname", "css:finder"],
+        ["xpath=//input[@id='cart-lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "af4fb950-0949-40d3-8b58-37b4c7437c88",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=cart-phone",
+      "targets": [],
+      "value": "4449999999"
+    }, {
+      "id": "2313f66a-cbe1-4f9b-8740-5f986cfa3a2b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=cart-email",
+      "targets": [],
+      "value": "autotest@askona.ru"
+    }, {
+      "id": "4c79cce3-980a-4179-8bbe-fcb77f28bfeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-form:nth-child(4) .radio-box:nth-child(1) > .checkout-mob__radio",
+      "targets": [
+        ["css=.cart-form:nth-child(4) .radio-box:nth-child(1) > .checkout-mob__radio", "css:finder"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div/div[2]/div/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f93fb419-1d38-4cfd-89ed-3bc31171fddb",
+      "comment": "",
+      "command": "type",
+      "target": "id=region_auto_location_input",
+      "targets": [
+        ["id=region_auto_location_input", "id"],
+        ["name=ORDER_PROP_72", "name"],
+        ["css=#region_auto_location_input", "css:finder"],
+        ["xpath=//input[@id='region_auto_location_input']", "xpath:attributes"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Владимир"
+    }, {
+      "id": "a28bcb4e-c79b-4b17-b091-ee12079c60f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=delivery-prop-2",
+      "targets": [
+        ["id=delivery-prop-2", "id"],
+        ["name=ORDER_PROP_2", "name"],
+        ["css=#delivery-prop-2", "css:finder"],
+        ["xpath=//input[@id='delivery-prop-2']", "xpath:attributes"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "пр-кт Ленина "
+    }, {
+      "id": "39602e3e-b9d2-4808-a537-860b1da9787c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[contains(.,'Онлайн-оплата')]",
+      "targets": [
+        ["css=.radio-box:nth-child(3) > .checkout-mob__radio", "css:finder"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div/div[3]/div/div/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Наличными при получении')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec4bcbd7-c0c7-4588-9452-e1243cdfca3c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=make_order",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "e52829e4-76a4-4e75-ae18-f08c03ef8e97",
+      "comment": "",
+      "command": "click",
+      "target": "id=make_order",
+      "targets": [
+        ["id=make_order", "id"],
+        ["linkText=Оформить заказ", "linkText"],
+        ["css=#make_order", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформить заказ')]", "xpath:link"],
+        ["xpath=//a[@id='make_order']", "xpath:attributes"],
+        ["xpath=//form[@id='js-sale-order-ajax-form']/div/div[6]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформить заказ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31843670-21ee-4323-884a-fc68aa9aa0c9",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Ваш заказ отправлен на обработку, спасибо!')]",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "5776efeb-3f6d-4fab-9625-3a9a97b45e52",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Ваш заказ отправлен на обработку, спасибо!')]", "xpath:innerText"]
+      ],
+      "value": "Ваш заказ отправлен на обработку, спасибо!"
+    }, {
+      "id": "8c60ebaa-067a-422d-8b88-e6bbc56ae048",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.confirm-order--order-number",
+      "targets": [
+        ["css=.confirm-order--order-number", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'№ 87722')]", "xpath:innerText"]
+      ],
+      "value": "num"
+    }, {
+      "id": "b42255a8-5f56-443d-a8b5-60cb09f62093",
+      "comment": "",
+      "command": "open",
+      "target": "/bitrix/admin/sale_order.php?lang=ru",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dfcd79e-8893-43bb-b357-c978ad408304",
+      "comment": "",
+      "command": "type",
+      "target": "name=USER_LOGIN",
+      "targets": [],
+      "value": "autotest@autotest.com"
+    }, {
+      "id": "b9dbbcfa-c915-4101-80b2-e57eac9ec1d1",
+      "comment": "",
+      "command": "type",
+      "target": "name=USER_PASSWORD",
+      "targets": [],
+      "value": "367641smD!"
+    }, {
+      "id": "eddc1a75-4862-4417-ad55-151c26c7b1d6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Login",
+      "targets": [
+        ["name=Login", "name"],
+        ["css=.login-btn-green-hover", "css:finder"],
+        ["xpath=//input[@name='Login']", "xpath:attributes"],
+        ["xpath=//div[@id='authorize_password']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6285be62-66c8-49ea-96f5-b0cf55761b52",
+      "comment": "",
+      "command": "//waitForElementPresent",
+      "target": "id=save",
+      "targets": [],
+      "value": "240000"
+    }, {
+      "id": "c869b2d9-ae50-402c-9078-a68ee1a15b3f",
+      "comment": "",
+      "command": "//click",
+      "target": "id=close",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e2d1b80-6446-4bc6-87cb-6798b6d12d7a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "name=filter_account_number",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "b1f64a8b-320e-4e8f-b805-b4b50580a6d9",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${num}.substring(1)",
+      "targets": [],
+      "value": "number"
+    }, {
+      "id": "0705334a-3f36-4dfa-ba31-ba9706fe9fee",
+      "comment": "",
+      "command": "type",
+      "target": "name=filter_account_number",
+      "targets": [],
+      "value": "${number}"
+    }, {
+      "id": "4885cfd2-6a50-4a60-a063-db2b7fbbb16f",
+      "comment": "",
+      "command": "click",
+      "target": "id=tbl_sale_order_filterset_filter",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad1e8d5f-3a6d-438c-ab5e-0a28ef36ed30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.adm-list-table-cell > .adm-designed-checkbox-label",
+      "targets": [
+        ["css=.adm-list-table-cell > .adm-designed-checkbox-label", "css:finder"],
+        ["xpath=//table[@id='tbl_sale_order']/tbody/tr/td/label", "xpath:idRelative"],
+        ["xpath=//td/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56aa8a09-8c17-4fae-a4f5-4d4b4d79a8ad",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89445808-4548-4e6b-9213-430402e059fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=action_delete_button",
+      "targets": [
+        ["id=action_delete_button", "id"],
+        ["css=#action_delete_button", "css:finder"],
+        ["xpath=//a[@id='action_delete_button']", "xpath:attributes"],
+        ["xpath=//div[@id='tbl_sale_order_footer']/span[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//span[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0af73152-da99-48c7-9acf-dbebb9df3bb7",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Вы уверены, что хотите удалить отмеченные записи?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9d224dc-be39-4ff2-9e2b-b7864c8850b5",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "388bfd16-4099-43d5-931c-5ae0dfc68e9e",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=.adm-list-table-cell > .adm-designed-checkbox-label",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "7babe8c9-d672-40b5-a0f1-844910f086ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=bx-panel-logout",
+      "targets": [
+        ["id=bx-panel-logout", "id"],
+        ["linkText=Выйти", "linkText"],
+        ["css=#bx-panel-logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Выйти')]", "xpath:link"],
+        ["xpath=//a[@id='bx-panel-logout']", "xpath:attributes"],
+        ["xpath=//div[@id='bx-panel']/div[2]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/bitrix/admin/sale_order.php?logout=yes&lang=ru')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Выйти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52399388-833a-4c51-b3f5-2efccfaab764",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#authorize .login-popup-title",
+      "targets": [
+        ["css=#authorize .login-popup-title", "css:finder"],
+        ["xpath=//div[@id='authorize']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f524005a-230e-4475-9913-6a966aead5ab",
+    "name": "random from the catalog",
+    "commands": [{
+      "id": "883bac4b-fded-437a-b410-210fd7365d90",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=catalog",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "9f2f46fb-11ae-4126-a258-c59ae2247bd7",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.floor(Math.random() *10) + 1",
+      "targets": [],
+      "value": "num"
+    }, {
+      "id": "8331b452-eda9-487f-aba6-2cba4c1a6a29",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[${num}]/form/div[2]/a",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ed440b01-ba5c-4f96-b73f-00ad14de78aa",
+    "name": "Всплывашка",
+    "commands": []
+  }, {
+    "id": "c556ed30-3178-4743-b8d4-b4614882d1cc",
+    "name": "delete from cart",
+    "commands": [{
+      "id": "286fcc97-9dbd-408b-bf2e-439a09afea04",
+      "comment": "",
+      "command": "open",
+      "target": "cabinet/order/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10ceebb0-2676-4469-b88a-cc11b95cd705",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1336x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f7f4bb7-f085-4f67-a681-f0874ae3d31f",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//div[@class='cart-item-delete']",
+      "targets": [],
+      "value": "basket"
+    }, {
+      "id": "3de1c216-b0f1-4cbc-aaca-691e32e547aa",
+      "comment": "",
+      "command": "while",
+      "target": "${basket} > 0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b169783-e72d-45ef-8fa9-4e719c8e43fd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@class='cart-item-delete']",
+      "targets": [
+        ["css=.cart-item-delete", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3f2c1c6-4424-4865-a566-dc88b9627900",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${basket} - 1",
+      "targets": [],
+      "value": "basket"
+    }, {
+      "id": "529c400b-fb6b-4faf-93c4-0c8312affa98",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.main-panel-steps__left",
+      "targets": [
+        ["css=.logo__img_mobile-covid", "css:finder"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "57a3fe38-93e5-46c6-96bf-de100ac6770b",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8a5bb29-982f-4741-9f14-488721edc2f5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Начать покупки",
+      "targets": [],
+      "value": "30000"
+    }]
+  }, {
+    "id": "6e4e874b-581a-4b4e-9c08-57fe832c200e",
+    "name": "sm-8 Рассрочка неавтор польз из КТ",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "6c30c3f6-17d6-4e71-9fc1-0a9a39a48f5a",
+    "name": "Smoke Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7ec93bb4-7550-40dd-998e-0b9c9668d85e", "f21c5952-9370-47c0-b10d-0685b7d1b7e8", "28622ef2-e45a-4557-b785-6ad1f85dc944", "058b9d27-56ea-449d-93ec-16999ad684f4", "3885cdd2-7894-4973-ae95-93f64f7a3e18", "d73b67ef-bc3a-47f7-a5f5-9951318f2c5d"]
+  }],
+  "urls": ["https://prod.askona.ru/", "https://beta.bx.askona.ru/", "https://new.askona.ru/"],
+  "plugins": []
+}
